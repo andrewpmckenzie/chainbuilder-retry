@@ -1,6 +1,6 @@
 # chainbuilder-retry [![Build Status](https://travis-ci.org/andrewpmckenzie/chainbuilder-retry.svg)](https://travis-ci.org/andrewpmckenzie/chainbuilder-retry)
 
-A [retry](https://github.com/retry/retry) mixin for [chainbuilder](https://www.npmjs.com/package/chainbuilder). 
+A [retry](https://github.com/tim-kos/node-retry) mixin for [chainbuilder](https://www.npmjs.com/package/chainbuilder). 
 
 **Installation** `npm install chainbuilder chainbuilder-retry --save`
 
@@ -37,12 +37,12 @@ myChain()
 #### require('chainbuilder-retry')(options)
 Init the mixin with default options.
 
-**`@param {Object} options`** (optional) default [retry](https://github.com/retry/retry) options.
+**`@param {Object} options`** (optional) default [retry](https://github.com/tim-kos/node-retry) options.
 
 #### $beginRetry(options)
 Begin a retry block.
 
-**`@param {Object} options`** (optional) [retry](https://github.com/retry/retry) options for this block.
+**`@param {Object} options`** (optional) retry options for this block.
 
 #### $endRetry()
 End a retry block.
