@@ -12,7 +12,7 @@ var myChain = chainBuilder({
   methods: {/* ... your methods ... */},
   mixins: [
     /* ... other mixins ... */
-    require('chainbuilder-retry')({ attempts: 5, max: 100 })
+    require('chainbuilder-retry')({ attempts: 5, maxTimeout: 100 })
   ]
 });
 ```
