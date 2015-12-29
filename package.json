@@ -1,0 +1,35 @@
+{
+  "name": "chainbuilder-retry",
+  "version": "1.0.0",
+  "description": "Retry mixin for chainbuilder.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewpmckenzie/chainbuilder-retry.git"
+  },
+  "keywords": [
+    "chainbuilder",
+    "retry",
+    "promise",
+    "chain"
+  ],
+  "author": "andrewpmckenzie@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewpmckenzie/chainbuilder-retry/issues"
+  },
+  "homepage": "https://github.com/andrewpmckenzie/chainbuilder-retry",
+  "dependencies": {
+    "retry": "^0.8.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chainbuilder": "^2.0.0",
+    "mocha": "^2.3.4",
+    "mockery": "^1.4.0",
+    "sinon": "^1.17.2"
+  }
+}
