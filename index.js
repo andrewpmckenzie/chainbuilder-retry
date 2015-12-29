@@ -10,7 +10,7 @@ module.exports = function (superOptions) {
 
     done(null, {
       value: this.previousResult(),
-      options: this.options
+      options: options
     });
   };
 
